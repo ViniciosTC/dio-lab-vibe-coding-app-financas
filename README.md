@@ -1,6 +1,22 @@
-# 💸 App de Finanças Pessoais do Vinicios com Vibe Coding
 
-PRD refinado no Copilot web:
+# App de Finanças Pessoais do Vinicios com Vibe Coding
+## Sobre o Projeto
+
+Este projeto foi desenvolvido como um exercício de Vibe Coding utilizando o Lovable.
+
+A ideia foi criar um aplicativo de finanças pessoais baseado em conversação, permitindo que usuários registrem gastos, acompanhem metas financeiras e recebam sugestões de economia utilizando linguagem natural.
+
+O objetivo foi validar como um PRD bem estruturado pode influenciar os resultados gerados por ferramentas de IA para desenvolvimento de software.
+## PRD Utilizado
+
+O PRD foi refinado utilizando o Microsoft Copilot Web antes de ser enviado ao Lovable.
+Prompt utilizado:
+
+Crie um app de finanças pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+
+## PRD
+
+PRD completo utilizado no experimento.
 
 ```
 # PRD - Assistente Financeiro Conversacional
@@ -323,14 +339,16 @@ O MVP será considerado validado caso os usuários consigam registrar suas movim
 
 O sucesso do produto será medido principalmente pela simplicidade da experiência e não pela quantidade de funcionalidades disponíveis.
 ```
-Interações com o Lovable:
+## Resultado no Lovable
 
-> Crie um app de finanças pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+### Aplicação gerada:
 
-Resultado Final no Lovable: https://meu-dinheiro-em-equilibrio.lovable.app/
+https://meu-dinheiro-em-equilibrio.lovable.app/
 
-<img width="1875" height="966" alt="image" src="https://github.com/user-attachments/assets/d3d4b450-f87e-45d0-aa47-bd0be2b01247" />
+### Imagem do resultado: 
+<img width="1875" height="966" alt="Captura de tela de 2026-11-15 11-26-55" src="https://github.com/user-attachments/assets/6ec93e14-04f3-4700-8702-54b800c1dcb7" />
 
+### Resultado do projeto
 Conta Clara
 
 Conta Clara é um assistente financeiro conversacional que ajuda as pessoas a organizarem suas finanças de forma simples e natural.
@@ -349,14 +367,14 @@ Comprei um café por R$ 8,50
 Recebi meu salário de R$ 3.500
 Gastei R$ 120 no supermercado
 
-A plataforma interpreta automaticamente a informação e identifica:
+A plataforma interpreta automaticamente as informações e identifica:
 
     Tipo da transação
     Valor
     Categoria
     Descrição
 
-Funcionalidades
+## Funcionalidades
 Registro Financeiro por Conversa
 
 Permite cadastrar receitas e despesas utilizando linguagem natural, sem formulários ou processos complexos.
@@ -431,16 +449,27 @@ Diferenciais
     Foco em simplicidade e acessibilidade
     Experiência construída com princípios de Design Universal
 
-Objetivo
+## Objetivo
+
 Permitir que qualquer pessoa organize sua vida financeira através de uma conversa simples, natural e acessível.
 
-##Reflexão
-
+## Reflexão
 ### O que funcionou bem?
-O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 1 interação
 
-### o que não funcionou como o esperado?
-Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender masi sobre Vibe Coding
+O refinamento prévio do PRD com o Copilot teve um impacto significativo na qualidade do resultado gerado pelo Lovable.
 
-### o que aprendeu sobre conversar com IAs?
-Aprendi que é basicamente igual a conversar com uma pessoa, quanto mais detalhes e claresa você dá melhor é a interação
+Mesmo com apenas uma interação disponível, a ferramenta conseguiu produzir uma solução bastante alinhada aos requisitos descritos.
+### O que não funcionou como esperado?
+
+Eu esperava ter mais interações gratuitas disponíveis no Lovable para iterar sobre a solução gerada.
+
+Ainda assim, a experiência foi suficiente para entender melhor o potencial do Vibe Coding.
+### O que aprendi sobre conversar com IAs?
+
+Aprendi que interagir com uma IA é muito parecido com interagir com uma pessoa.
+
+Quanto mais contexto, clareza, restrições e objetivos são fornecidos, melhor tende a ser o resultado produzido.
+## Conclusão
+
+Este projeto demonstrou como um PRD bem estruturado pode orientar ferramentas de IA na geração de protótipos funcionais com poucas interações.
+A experiência reforçou a importância de definir claramente o problema, o público-alvo, os requisitos e os objetivos antes de iniciar o desenvolvimento assistido por IA. 
